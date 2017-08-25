@@ -1,15 +1,11 @@
 package com.example.hsenid.mycalcilator;
 
-import android.os.StrictMode;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-
-import com.example.hsenid.mycalcilator.CalculatorOperations;
-
 import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
@@ -100,7 +96,6 @@ public class MainActivity extends AppCompatActivity {
             default: return  -1;
         }
     }
-
     private boolean getResult(){
         String[] operation = input.split(Pattern.quote(currentOperator));
         if (operation.length < 2) return false;
@@ -108,7 +103,6 @@ public class MainActivity extends AppCompatActivity {
         result=String.valueOf(operate(operation[0],operation[1], currentOperator)) ;
         return true;
     }
-
     public void onClickEqual(View v){
 
         if(result != ""){
@@ -121,10 +115,5 @@ public class MainActivity extends AppCompatActivity {
             if(!getResult()) return;
             display.setText(input + "\n" + result);
         }
-
-
     }
-
-
-
 }

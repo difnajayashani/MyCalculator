@@ -14,10 +14,6 @@
         android:layout_marginTop="26dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-
-
-
-
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
@@ -130,9 +126,7 @@
                 android:onClick="onClickOperator"
                 android:text="*" />
 
-
         </TableRow>
-
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -173,10 +167,7 @@
                 android:onClick="onClickOperator"
                 android:text="/" />
 
-
-
         </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -185,35 +176,5 @@
         </TableRow>
 
     </TableLayout>
-
-
-    <!-- <LinearLayout
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"
-         android:layout_alignParentBottom="true"
-         android:layout_alignParentLeft="true"
-         android:layout_alignParentStart="true"
-         android:layout_alignTop="@+id/tableLayout"
-         android:layout_marginTop="196dp"
-         android:orientation="horizontal">
-
-         <Button
-             android:id="@+id/btnEqual"
-             style="@style/Widget.AppCompat.Button.Colored"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_weight="1"
-             android:onClick="clickEqual"
-             android:text="="
-             android:textAlignment="center" />
-
-         <Button
-             android:id="@+id/btn0"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_weight="1"
-             android:onClick="clickZero"
-             android:text="0" />
-     </LinearLayout>-->
 
 </android.widget.RelativeLayout>
