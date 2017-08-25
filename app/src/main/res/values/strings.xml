@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Calcilator</string>
+    <string name="plus">+</string>
+    <string name="btn_one">1</string>
+    <string name="btn_two">2</string>
+    <string name="btn_three">3</string>
+
+</resources>
